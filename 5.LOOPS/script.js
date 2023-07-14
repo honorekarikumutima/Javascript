@@ -1,26 +1,44 @@
 
+//display 1-5 to the console
+
+// console.log(1);
+// console.log(2);
+// console.log(3);
+// console.log(4);
+// console.log(5);
+
 
 //for loop
 
 //display 0-100 to the console
+
 //syntax
+// for('initialization' ; 'condition';'increment' ){
+//     //code to run
+// }
 
-//for('initialization' ; 'condition' ; 'increment'){
-    //code to run
-//}
+//-----
+//STEPS
+//---
+//1. initialize 
 
-//-------
-//steps
-//1.inittialize
-let i;
-for(i = 0; i < 100; ++i){
-    console.log(i);
-}
+// let i;
+
+//  for(i=0; i <= 5 ; ++i ){
+//    console.log(i)
+//  }
 
 
 //2. While loop
-let j = 0;
-while(j < 10){
-    console.log(j);
-    j++
+
+let i = 0;
+
+while(i < 10){
+console.log(i)
+++i
 }
+
+
+
+
+
